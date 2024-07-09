@@ -1,0 +1,12 @@
+{
+    "include": ["src/**/*"],
+    "compilerOptions": {
+        "declaration": true,
+        "lib": ["dom", "ESNext"],
+        "module": "NodeNext",
+        "noImplicitAny": true,
+        "outDir": "./dist",
+        "strict": true,
+        "target": "ES2015",
+    }
+}

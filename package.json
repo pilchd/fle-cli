@@ -1,0 +1,40 @@
+{
+    "name": "@pilchd/fle-cli",
+    "version": "1.0.0-rc.1",
+    "description": "CLI frontend for https://github.com/pilchd/fle",
+    "keywords": [
+        "amateur radio",
+        "ham",
+        "ham radio",
+        "fle",
+        "fast",
+        "log",
+        "entry"
+    ],
+    "homepage": "https://github.com/pilchd/fle-cli",
+    "bugs": "https://github.com/pilchd/fle-cli/issues",
+    "license": "MIT",
+    "author": "Nic Pilcher <nic@pilchd.com> (https://pilchd.com/)",
+    "files": [
+        "./dist/**"
+    ],
+    "bin": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/pilchd/fle.git"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "",
+        "clean": "rm -rf dist/"
+    },
+    "dependencies": {
+        "@pilchd/fle": "1.0.0-rc.1",
+        "commander": "12.1"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "typescript": "5.5"
+    },
+    "type": "module"
+}
